@@ -7,7 +7,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Bem-vindo ao Diário Pessoal!");
         Console.WriteLine("");
 
