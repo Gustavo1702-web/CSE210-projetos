@@ -10,7 +10,8 @@ public class GeradorDePerguntas
         "Como vi a mão do Senhor em minha vida hoje?",
         "Qual foi a emoção mais forte que senti hoje?",
         "Se eu pudesse fazer uma coisa hoje, o que seria?",
-        "O que eu aprendi hoje que eu não sabia ontem?"
+        "O que eu aprendi hoje que eu não sabia ontem?",
+        "Pelo o que voce deve ser grato hoje?",
     };
 
     private Random random = new Random();

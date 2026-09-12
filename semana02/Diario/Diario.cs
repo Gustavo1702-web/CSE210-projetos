@@ -26,7 +26,7 @@ public class Diario
         {
             foreach (Registro entrada in entradas)
             {
-                string line = $"{entrada.Pergunta}~|~{entrada.Resposta}~|~{entrada.Date}";
+                string line = $"{entrada.Pergunta}~|~{entrada.Resposta}~|~{entrada.Data}";
                 outputFile.WriteLine(line);
             }
         }
@@ -44,7 +44,7 @@ public class Diario
             if (parts.Length == 3)
             {
                 Registro entrada = new Registro(parts[0], parts[1]);
-                entrada.Date = DateTime.Parse(parts[2]);
+                entrada.Data = DateTime.Parse(parts[2]);
                 entradas.Add(entrada);
             }
         }
