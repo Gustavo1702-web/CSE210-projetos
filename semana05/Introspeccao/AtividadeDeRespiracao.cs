@@ -7,7 +7,6 @@ public class AtividadeDeRespiracao : Atividade
                "Esta atividade ajudará você a relaxar, inspirando e expirando lentamente. Limpe sua mente e concentre-se na sua respiração.")
     {
     }
-
     public void Executar()
     {
         ExibirMensagemInicial();
